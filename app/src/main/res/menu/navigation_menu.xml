@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/pesonProfile"
+            android:icon="@drawable/person"
+            android:title="حسابي الشخصي" />
+        <item
+            android:id="@+id/app_info"
+            android:icon="@drawable/info_app"
+            android:title="تعليمات التطبيق" />
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@drawable/ic_alert_circle_black_48dp"
+            android:title="عنا" />
+
+        <item
+            android:id="@+id/contact_menu"
+            android:icon="@drawable/phone_icon"
+            android:title="اتصل بنا" />
+    </group>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout_icon"
+        android:title="تسجيل الخروج" />
+</menu>

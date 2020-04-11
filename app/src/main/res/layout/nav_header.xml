@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_image_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/default_user_icon_profile"
+        app:civ_border_color="#9E0707"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="karim Ahmed"
+        android:textColor="#9E0707"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/actor"
+        />
+
+
+</LinearLayout>
